@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Image Upload Stats</title>
 		<!-- Header & Upload form CSS -->
-		<link rel="stylesheet" href="static/css/style.css">
+		<link rel="stylesheet" href="../static/css/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
 		<!-- Footer CSS -->
@@ -17,7 +17,7 @@
 	<!-- Header Start -->
 	<header class="brand-navigation">
 		<div class="content">
-		  <a href="https://www.youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w"><img class="logo-nav" src="static/img/logo.png"></img></a>
+		  <a href="https://www.youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w"><img class="logo-nav" src="../static/img/logo.png"></img></a>
 		  <nav>
 			<ul class="navigation">
 			  <li><a href="#">Home</a></li>

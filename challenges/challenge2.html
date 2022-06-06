@@ -46,9 +46,15 @@
 			<header>
 			  <h4>Select File here</h4>
 			</header>
-			<p>Files Supported: JPG, JPEG, PNG, GIF</p>
-			<input type="file" hidden accept=".jpg,.jpeg,.png,.gif" id="fileID" style="display:none;">
-			<button class="btn">Choose File</button>
+			<p id="uploadText">Files Supported: JPG, JPEG, PNG, GIF</p>
+			<form action="php/upload2.php" method="post" enctype="multipart/form-data">
+				<div class="form">
+				<h4 id="filenameText" class="invisible"></h4>
+				<input type="file" hidden accept=".jpg,.jpeg,.png,.gif" id="fileID" style="display:none;">
+				<button class="btn" type="button" id="choosefilebtn">Choose File</button>
+				<button class="btn invisible" type="submit" name="submit" name="Upload" id="submitButton">Upload</button>
+				</div>
+			</form>
 		  </div>
 	  
 		</div>
@@ -57,7 +63,7 @@
 	
 	<!-- JS for Header Start -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="static/js/challenge2.js"></script>
+	<script src="static/js/script.js"></script>
 	<script>
 		$(document).ready(function(){
 			var showHeaderAt = 150;
