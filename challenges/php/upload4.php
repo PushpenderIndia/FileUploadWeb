@@ -45,11 +45,9 @@
 		die();	
 	}
 
-	$allowedExtension = array('png', 'jpg', 'jpeg', 'gif');
-	$splitFileName = explode(".", $_FILES["file"]["name"]);
-	$fileExtension = end($splitFileName);
+	$fileName = $_FILES["file"]["name"]
 
-	if (strpos($fileExtension, $allowedExtension)) {
+	if (strpos(fileName, "png") || strpos(fileName, "jpg") || strpos(fileName, "jpeg") || strpos(fileName, "gif")) {
 		echo "Name: ".$_FILES["file"]["name"];
 		echo "<br>Size: ".$_FILES["file"]["size"];
 		echo "<br>Temp File: ".$_FILES["file"]["tmp_name"];
