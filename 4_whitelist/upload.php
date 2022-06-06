@@ -14,7 +14,7 @@
 	$splitFileName = explode(".", $_FILES["file"]["name"]);
 	$fileExtension = end($splitFileName);
 
-	if (in_array($fileExtension, $allowedExtension)) {
+	if (strpos($fileExtension, $allowedExtension)) {
 		echo "Name: ".$_FILES["file"]["name"];
 		echo "<br>Size: ".$_FILES["file"]["size"];
 		echo "<br>Temp File: ".$_FILES["file"]["tmp_name"];
