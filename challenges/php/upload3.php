@@ -51,11 +51,11 @@
 
 
 	if(in_array($fileExtension, $notAllowed)) {
-		echo "Please upload a Image file";
+		echo "<br><br>Please upload a Image file";
 	}
 
 	else {
-		echo "Name: ".$_FILES["file"]["name"];
+		echo "<br><br>Name: ".$_FILES["file"]["name"];
 		echo "<br>Size: ".$_FILES["file"]["size"];
 		echo "<br>Temp File: ".$_FILES["file"]["tmp_name"];
 		echo "<br>Type: ".$_FILES["file"]["type"];

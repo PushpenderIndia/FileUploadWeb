@@ -50,7 +50,7 @@
 
 	if(in_array($_FILES["file"]["type"], $valid_content_type))
 	{
-		echo "Name: ".$_FILES["file"]["name"];
+		echo "<br><br>Name: ".$_FILES["file"]["name"];
 		echo "<br>Size: ".$_FILES["file"]["size"];
 		echo "<br>Temp File: ".$_FILES["file"]["tmp_name"];
 		echo "<br>Type: ".$_FILES["file"]["type"];
@@ -58,7 +58,7 @@
 		move_uploaded_file($_FILES["file"]["tmp_name"], "../uploads/".$_FILES["file"]["name"]);
 	}
 	else {
-		echo "Please upload only image file. Valid Extension: png, jpg, jpeg, gif";
+		echo "<br><br>Please upload only image file. Valid Extension: png, jpg, jpeg, gif";
 		echo "<br>Type: ".$_FILES["file"]["type"];	
 	}
 	

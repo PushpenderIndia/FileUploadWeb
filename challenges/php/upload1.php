@@ -47,7 +47,7 @@
 	}
 	else{
 
-		echo "Name: ".$_FILES["file"]["name"];
+		echo "<br><br>Name: ".$_FILES["file"]["name"];
 		echo "<br>Size: ".$_FILES["file"]["size"];
 		echo "<br>Temp File: ".$_FILES["file"]["tmp_name"];
 
