@@ -17,7 +17,7 @@
 	<!-- Header Start -->
 	<header class="brand-navigation">
 		<div class="content">
-		  <a href="https://www.youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w"><img class="logo-nav" src="../static/img/logo.png"></img></a>
+		  <a href="https://www.youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w"><img class="logo-nav" src="../static/img/logo.png"></a>
 		  <nav>
 			<ul class="navigation">
 			  <li><a href="#">Home</a></li>
